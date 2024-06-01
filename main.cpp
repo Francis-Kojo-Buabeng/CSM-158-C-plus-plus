@@ -35,7 +35,6 @@ int main()
     totalDeduction = (incomeTax + NHLC + districtTax + eduFund);
     netPay = salary - totalDeduction;
 
-    //cout <<" Gross pay: "<< salary <<"\n"<<" Total deduction: "<< totalDeduction <<"\n"<<" Net pay: "<< netPay <<"\n";//
 
     cout<<"Gross pay "<<  "Total deduction " << "  Net pay "<<endl;
     cout<<"  "<<salary <<"\t\t"<<totalDeduction <<"\t\t"<<netPay<<"\n";
